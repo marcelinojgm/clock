@@ -23,5 +23,14 @@ public class ClockDisplay
         minute = 0;
     }
     
+    /**
+     * set time to 23:45
+     */
+    public void setTime()
+    {
+        hour = 23;
+        minute = 45;
+    }
     
+   
 }
