@@ -57,5 +57,28 @@ public class ClockDisplay
     
     }
     
-  
+    /**
+     * print hour format HH:MM
+     */
+    public String getTime()
+    {
+        String curentTime;
+        if (hour < 10)
+        {
+            curentTime = "0" + hour + ":";
+        }
+        else
+        {
+            curentTime = hour + ":";
+        }
+        if(minute < 10)
+        {
+            curentTime = curentTime + "0" + minute;
+        }
+        else
+        {
+            curentTime = curentTime + minute;
+        }
+        return curentTime;
+    }
 }
