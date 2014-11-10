@@ -19,8 +19,9 @@ public class ClockDisplay
      */
     public ClockDisplay()
     {
-    
+        hour = 0;
+        minute = 0;
     }
-
+    
     
 }
