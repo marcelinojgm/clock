@@ -11,8 +11,7 @@ public class ClockDisplay
     private int hour;
     // variable for minutes
     private int minute;
-    // variable for seconds
-    private int second;
+  
     
 
     /**
@@ -20,7 +19,7 @@ public class ClockDisplay
      */
     public ClockDisplay()
     {
-      
+    
     }
 
     
