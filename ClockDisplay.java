@@ -32,5 +32,30 @@ public class ClockDisplay
         minute = 45;
     }
     
-   
+    /**
+     *  advance one minute
+     */
+    public void timeTick()
+    {
+        if (minute == 59)
+        {
+            if (hour == 23)
+            {
+            hour = 0;
+            minute = 0;
+        }
+        else
+        {
+            hour = hour +1;
+            minute = 0;
+        }
+        }
+        else
+        {
+            minute = minute + 1;
+        }
+    
+    }
+    
+  
 }
