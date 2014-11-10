@@ -7,8 +7,13 @@
  */
 public class ClockDisplay
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    // variable for hours
+    private int hour;
+    // variable for minutes
+    private int minute;
+    // variable for seconds
+    private int second;
+    
 
     /**
      * Constructor for objects of class ClockDisplay
