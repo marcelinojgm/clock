@@ -16,11 +16,43 @@ public class ClockDisplay
 
     /**
      * Constructor for objects of class ClockDisplay
+     * introducir un numero entero entre 0-23 para newHour
+     * introducir un numero entero entre 0-59 para newMinute
+     * en caso contrario se inicializaran a cero
      */
-    public ClockDisplay()
+    public ClockDisplay(int newHour, int newMinute)
     {
-        hour = 0;
-        minute = 0;
+        if(newHour>=0)
+        {
+            if(newHour<=23)
+            {
+                hour = newHour;
+            }
+            else 
+            {
+                hour = 0;
+            }
+        }
+        else
+        {
+            hour = 0;
+        }
+        
+        if(newMinute>=0)
+        {
+            if(newMinute<=23)
+            {
+                minute = newMinute;
+            }
+            else 
+            {
+                minute = 0;
+            }
+        }
+        else
+        {
+            minute = 0;
+        }
     }
     
     /**

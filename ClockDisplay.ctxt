@@ -1,7 +1,7 @@
 #BlueJ class context
-comment0.params=
-comment0.target=ClockDisplay()
-comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ ClockDisplay\r\n
+comment0.params=newHour\ newMinute
+comment0.target=ClockDisplay(int,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ ClockDisplay\r\n\ introducir\ un\ numero\ entero\ entre\ 0-23\ para\ newHour\r\n\ introducir\ un\ numero\ entero\ entre\ 0-59\ para\ newMinute\r\n\ en\ caso\ contrario\ se\ inicializaran\ a\ cero\r\n
 comment1.params=
 comment1.target=void\ setTime()
 comment1.text=\r\n\ set\ time\ to\ 23\:45\r\n
